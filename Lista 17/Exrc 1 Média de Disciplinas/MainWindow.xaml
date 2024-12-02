@@ -1,0 +1,34 @@
+﻿<Window x:Class="Exrc_1_Média_de_Disciplinas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exrc_1_Média_de_Disciplinas"
+        mc:Ignorable="d"
+        Title="Média de Disciplinas" Height="500" Width="888">
+    <Grid>
+        <GroupBox Header="Inserir Disciplinas" Height="160" Width="869" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,0,0,0">
+            <Grid>
+                <Button Content="Semestral" Height="20" Width="100" Margin="10,40,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="InserirS"/>
+                <TextBox Name="sNome" Height="20" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0"/>
+                <TextBox Name="s1bim" Height="20" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="120,10,0,0" />
+                <TextBox Name="s2bim" Height="20" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="230,10,0,0" />
+                <TextBox Name="sFinal" Height="20" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="340,10,0,0" />
+                <Button Content="Anual" Height="20" Width="100" Margin="10,100,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="InserirA"/>
+                <TextBox Name="aNome" Height="20" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,70,0,0"/>
+                <TextBox Name="a1bim" Height="20" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="120,70,0,0" />
+                <TextBox Name="a2bim" Height="20" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="230,70,0,0" />
+                <TextBox Name="a3bim" Height="20" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="340,70,0,0" />
+                <TextBox Name="a4bim" Height="20" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="450,70,0,0" />
+                <TextBox Name="afinal" Height="20" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="560,70,0,0" />
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Listagem e Média" Height="300" Width="869" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,165,0,0">
+            <Grid Margin="0,22,0,-22">
+                <ListBox Name="listar" Height="100" Width="650" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,-14,0,0"/>
+                <Button Content="Media" Height="20" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,103,0,0" Click="Media"/>
+                <TextBox Name="txtMedia" Height="100" Width="650" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,144,0,0" Background="#FFFBFBFB" FontSize="36"/>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

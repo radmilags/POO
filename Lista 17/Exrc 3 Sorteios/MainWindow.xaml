@@ -1,0 +1,19 @@
+﻿<Window x:Class="Exrc_3_Sorteios.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exrc_3_Sorteios"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="780.333">
+    <Grid Margin="0,0,-240,0">
+        <TextBlock Height="30" Width="150" Margin="10,10,0,0" Text="Bingo" VerticalAlignment="Top" HorizontalAlignment="left"/>
+        <GroupBox>
+            <Grid>
+                <Slider Name="slider" Minimum="10" Maximum="60" ValueChanged="slidervalue" Background="AliceBlue" Margin="10,45,637,354"/>
+            </Grid>
+        </GroupBox>
+        <TextBox Height="30" Width="150" Margin="65,216,577,173" />
+        <TextBlock Height="30" Width="150" Margin="246,10,396,379" Text="Mega" TextAlignment="Center"/>
+    </Grid>
+</Window>

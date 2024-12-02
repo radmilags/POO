@@ -1,0 +1,15 @@
+﻿<Window x:Class="Exrc_1_Conversor_Binário.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exrc_1_Conversor_Binário"
+        mc:Ignorable="d"
+        Title="Conversor Binário" Height="200.71" Width="546.875">
+    <Grid>
+        <TextBlock Text="Digite qualquer valor" Height="30" Width="150" VerticalAlignment="Top" Margin="194.5,10,194.5,0" TextAlignment="Center" Background="Black" Foreground="White"/>
+        <TextBox Name="txtN" Height="30" Width="150" VerticalAlignment="Top" Margin="194.5,50,194.5,0"/>
+        <Button Content="Converter" Click="Converter" Height="30" Width="150" Margin="194.5,35,194.5,0"/>
+        <TextBox Name="txtS" Height="30" Width="150" VerticalAlignment="Top" Margin="194,125,195,0"/>
+    </Grid>
+</Window>
