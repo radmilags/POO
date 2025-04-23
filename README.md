@@ -37,7 +37,7 @@ POO/
 ### Pré-requisitos
 
 - [SDK do .NET 6 ou superior](https://dotnet.microsoft.com/download)
-- [Visual Studio Code](https://code.visualstudio.com/) com a extensão C# (Omnisharp)
+- [Visual Studio](https://visualstudio.microsoft.com/pt-br/) (preferencialmente a edição Community)
 
 ### Passos
 
