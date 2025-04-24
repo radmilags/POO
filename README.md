@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/C%23-POO-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C# POO" />
   <img src="https://img.shields.io/badge/Visual%20Studio-IDE-purple?style=for-the-badge&logo=visualstudio&logoColor=white" alt="Visual Studio" />
-  <img src="https://img.shields.io/github/license/radmilags/POO?style=for-the-badge" alt="License" />
+  <img src="https://img.shields.io/badge/TADS-2º%20Período-yellow?style=for-the-badge" alt="TADS" />
 </p>
 
 ## 📚 Descrição
